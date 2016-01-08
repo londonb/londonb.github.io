@@ -5,3 +5,6 @@ h3.add_box{
   background-color: black;
   color: white;
 }
+form {
+  display: inline-block;
+}
