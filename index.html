@@ -14,19 +14,50 @@
   </head>
 
   <body>
-    <div class="container-fluid">
-      <h1>Brad London and his Projects</h1>
-      <img src="img/stats.gif" alt="A picture of Kermit waving his arms">
+
+    <div id="profile" class="carousel slide jumbotron">
+      <div class="container">
+        <ol class="carousel-indicators">
+          <li data-target="#profile" data-slide-to="0" class="active"></li>
+          <li data-target="#profile" data-slide-to="1"> </li>
+          <li data-target="#profile" data-slide-to="2"> </li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="item active">
+            <h1>Brad London and his Projects</h1>
+            <img src="img/stats.gif" alt="A picture of Kermit waving his arms">
+          </div>
+          <div class="item">
+            <h1>Brad London and his Projects</h1>
+            <img src="img/catbot.jpg" alt="A picture of cat">
+          </div>
+          <div class="item">
+            <h1>Brad London and his Projects</h1>
+            <img src="img/stats.gif" alt="A picture of Kermit waving his arms">
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#profile" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+      </a>
+      <a class="right carousel-control" href="#profile" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+      </a>
+
+    </div>
+
+    <div class="container-fluid add_box">
 
       <h2>About Me</h2>
-      <h3>Background</h3>
+
+      <h3 class="text-center add_box">Background</h3>
 
       <div class="row">
         <div class="col-sm-4">
           <p>Education</p>
           <ul>
-            <li>University of Georgia: Bachelor's Degree in <em>Finance</em> and a Minor in <em>Statistics</em> (2003)</li>
-            <li>Portland State University: Graduate Certificate in <em>Applied Statistics</em> (2013)</li>
+            <li><strong>University of Georgia</strong>: Bachelor's Degree in <em>Finance</em> and a Minor in <em>Statistics</em> (2003)</li>
+            <li><strong>Portland State University</strong>: Graduate Certificate in <em>Applied Statistics</em> (2013)</li>
           </ul>
         </div>
 
@@ -62,6 +93,7 @@
         <li>A site for an animal shelter <a href="https://github.com/londonb/d3combined">located here</a></li>
         <li>A site about a country I want to vistit someday (but not really) [html css bootstrap] <a href="https://github.com/londonb/vacation">located here.</a></li>
       </ul>
+
     </div>
 
   </body>
