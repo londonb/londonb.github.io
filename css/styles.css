@@ -1,4 +1,4 @@
-h3.add_box{
+h3.add_box {
   margin: 12px;
   border: 2px solid red;
   padding: 4px;
@@ -7,4 +7,28 @@ h3.add_box{
 }
 form {
   display: inline-block;
+}
+
+.body {
+  overflow: hidden;
+}
+.education {
+  background-color:#FFD5CB;
+  padding-bottom: 10000px;
+  margin-bottom: -10000px;
+  border: 1px solid;
+}
+
+.work {
+  background-color:#FFF5F3;
+  padding-bottom: 10000px;
+  margin-bottom: -10000px;
+  border: 1px solid;
+}
+
+.interests {
+  background-color:#E5DDDB;
+  padding-bottom: 10000px;
+  margin-bottom: -10000px;
+  border: 1px solid;
 }
