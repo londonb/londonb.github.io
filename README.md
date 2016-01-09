@@ -1,19 +1,19 @@
 
-# _{Brad London's Portfolio}_
+# _Brad London's Portfolio_
 
-#### _{A site giving some more background about myself}, {1/8/16}_
+#### _A site giving some more background about myself, 1/8/16_
 
-#### By _**{Brad London}**_
+#### By _**Brad London**_
 
 ## Description
 
-_{You will be able to see some of the projects I have worked in my first week of coding school and get to know a little bit more about me}_
+_You will be able to see some of the projects I have worked in my first week of coding school and get to know a little bit more about me_
 
 
 ## Technologies Used
 
-_{This site was created using HTML, CSS, and Bootstrap}_
+_This site was created using HTML, CSS, and Bootstrap_
 
 ### License
 
-Copyright (c) 2016 **_{Brad London}_**
+Copyright (c) 2016 **_Brad London_**
