@@ -12,6 +12,7 @@ form {
 .body {
   overflow: hidden;
 }
+
 .education {
   background-color:#FFD5CB;
   padding-bottom: 10000px;
@@ -35,4 +36,8 @@ form {
 
 .logo {
   float: right;
+}
+
+body {
+    background-color: #eee;
 }
